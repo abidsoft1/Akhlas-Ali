@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 1100px) {
+  header .leftSide {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  #sidebarBtn {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  header .rightSide #mySiteTitle {
+    font-size: 2rem;
+  }
+  header .leftSide {
+    width: 35%;
+  }
+  header .leftSide h2 {
+    font-size: 1.8rem;
+  }
+  #MoblieMenu {
+    display: inline-block;
+  }
+  header .rightSide #mySiteTitle {
+    display: none;
+  }
+  header .leftSide {
+    width: 100%;
+  }
+  #about .wrapper{
+    flex-direction: column;
+  }
+  #contact .wrapper{
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+}
